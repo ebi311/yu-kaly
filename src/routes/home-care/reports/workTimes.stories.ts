@@ -4,7 +4,7 @@ import WrokTimes from './workTimes.svelte';
 const meta = {
   title: 'reports/workTimes',
   component: WrokTimes,
-  tags: ['autodocs']
+  tags: ['autodocs'],
 } satisfies Meta<WrokTimes>;
 
 export default meta;
@@ -15,7 +15,7 @@ export const Default: Story = {
     workTimes: {
       'physical care': 90,
       'live care': 60,
-      'attend hospital': 30
-    }
-  }
+      'attend hospital': 30,
+    },
+  },
 };

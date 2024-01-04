@@ -7,8 +7,8 @@ const meta = {
   tags: ['autodocs'],
   args: {
     category: 'physical care',
-    time: 90
-  }
+    time: 90,
+  },
 } satisfies Meta<WorkTime>;
 
 export default meta;
@@ -17,6 +17,6 @@ type Story = StoryObj<WorkTime>;
 export const Defaul: Story = {
   args: {
     category: 'physical care',
-    time: 90
-  }
+    time: 90,
+  },
 };

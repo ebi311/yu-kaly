@@ -4,7 +4,7 @@ import RecipientName from './recipientName.svelte';
 const meta = {
   title: 'reports/Recipient Name',
   component: RecipientName,
-  tags: ['autodocs']
+  tags: ['autodocs'],
 } satisfies Meta<RecipientName>;
 
 export default meta;
@@ -12,6 +12,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    name: 'John Doe'
-  }
+    name: 'John Doe',
+  },
 };

@@ -6,8 +6,8 @@ const meta = {
   component: DateDivider,
   tags: ['autodocs'],
   argTypes: {
-    date: { control: 'date' }
-  }
+    date: { control: 'date' },
+  },
 } satisfies Meta<DateDivider>;
 
 export default meta;
@@ -15,6 +15,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    date: new Date()
-  }
+    date: new Date(),
+  },
 };
