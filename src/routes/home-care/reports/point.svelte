@@ -1,5 +1,7 @@
 <script>
-  export let point = 0;
+  import classNames from 'classnames';
+  export let points = 0;
+  $: classes = classNames('text-xl', $$props['class']);
 </script>
 
-<span class="text-xl">{point} pt</span>
+<span class={classes}>{points} pt</span>

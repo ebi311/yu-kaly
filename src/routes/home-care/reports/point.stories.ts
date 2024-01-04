@@ -6,7 +6,7 @@ const meta = {
   component: Point,
   tags: ['autodocs'],
   argTypes: {
-    point: { type: 'number' },
+    points: { type: 'number' },
   },
 } satisfies Meta<Point>;
 
@@ -15,6 +15,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    point: 1,
+    points: 1,
   },
 };

@@ -1,9 +1,11 @@
 <script lang="ts">
+  import type { WorkReportStatus } from '$lib/models/workReport';
   import { CircleCheckRegular, PenSolid } from 'svelte-awesome-icons';
-  export let status: 'done' | 'pending' = 'done';
+
+  export let status: WorkReportStatus = 'done';
 </script>
 
-<div>
+<div class={$$props['class']}>
   {#if status === 'done'}
     <CircleCheckRegular class="text-success" />
   {:else if status === 'pending'}
