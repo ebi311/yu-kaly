@@ -12,6 +12,6 @@
 <header class="navbar bg-base-100 border-b-1 shadow">
   <h1 class="text-2xl text-base-content font-bold">{pageTitle}</h1>
 </header>
-<main class="max-w-2xl pt-2">
+<main class="w-full sm:max-w-[640px] md:max-w-[768px] mx-auto pt-2">
   <slot />
 </main>
