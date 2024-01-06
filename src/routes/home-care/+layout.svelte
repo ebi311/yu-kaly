@@ -9,9 +9,9 @@
   $: pageTitle = pageTitles[$page.url.pathname] ?? '(unknown page)';
 </script>
 
-<header class="navbar bg-primary shadow">
-  <h1 class="text-2xl text-primary-content font-bold">{pageTitle}</h1>
+<header class="navbar bg-base-100 border-b-1 shadow">
+  <h1 class="text-2xl text-base-content font-bold">{pageTitle}</h1>
 </header>
-<main class="max-w-2xl">
+<main class="max-w-2xl pt-2">
   <slot />
 </main>
