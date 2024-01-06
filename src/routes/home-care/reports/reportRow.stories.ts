@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/svelte';
-import ReportRow from './reportRow.svelte';
+import ReportRow from './reportList.svelte';
 
 const meta = {
   title: 'reports/Report Row',

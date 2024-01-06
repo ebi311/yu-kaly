@@ -28,3 +28,8 @@ export type WorkReport = {
     name: string;
   };
 };
+
+export type WorkReportsEveryDate = {
+  date: Date;
+  reports: WorkReport[];
+};
