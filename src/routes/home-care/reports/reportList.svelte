@@ -5,7 +5,7 @@
   import RecipientName from './recipientName/recipientName.svelte';
   import WorkTimes from './workTimes/workTimes.svelte';
   import Point from './point/point.svelte';
-  import ReportStatusIcon from './reportStatusIcon.svelte';
+  import ReportStatusIcon from './reportStatusIcon/reportStatusIcon.svelte';
 
   export let reports: WorkReport[] = [];
   const className = classNames(
