@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
   import classNames from 'classnames';
-  export let points = 0;
+  export let points: number;
   $: classes = classNames('text-xl', $$props['class']);
 </script>
 
