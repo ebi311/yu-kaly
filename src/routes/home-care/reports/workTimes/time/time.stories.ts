@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
-import WorkTime from './workTime.svelte';
+import WorkTime from './time.svelte';
 
 const meta = {
-  title: 'reports/workTime',
+  title: 'reports/workTimes/time',
   component: WorkTime,
   tags: ['autodocs'],
   args: {

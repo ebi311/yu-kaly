@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
 
-import RowTimeRange from './rowTimeRange.svelte';
+import RowTimeRange from './timeRange.svelte';
 
 const meta = {
   title: 'reports/RowTimeRange',

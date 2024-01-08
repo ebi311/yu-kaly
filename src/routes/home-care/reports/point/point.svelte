@@ -4,4 +4,7 @@
   $: classes = classNames('text-xl', $$props['class']);
 </script>
 
-<span class={classes}>{points} pt</span>
+<span>
+  <span class={classes} role="presentation" aria-label="point">{points}</span>
+  <span>pt</span>
+</span>

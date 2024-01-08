@@ -8,6 +8,6 @@
   $: endTimeString = format(end, 'H:mm');
 </script>
 
-<span>
+<span role="presentation" aria-label="time-range">
   {startTimeString} - {endTimeString}
 </span>

@@ -1,10 +1,10 @@
 <script lang="ts">
   import classNames from 'classnames';
   import type { WorkReport } from '$lib/models/workReport';
-  import RowTimeRange from './rowTimeRange.svelte';
-  import RecipientName from './recipientName.svelte';
-  import WorkTimes from './workTimes.svelte';
-  import Point from './point.svelte';
+  import RowTimeRange from './timeRange/timeRange.svelte';
+  import RecipientName from './recipientName/recipientName.svelte';
+  import WorkTimes from './workTimes/workTimes.svelte';
+  import Point from './point/point.svelte';
   import ReportStatusIcon from './reportStatusIcon.svelte';
 
   export let reports: WorkReport[] = [];

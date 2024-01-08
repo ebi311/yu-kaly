@@ -1,13 +1,9 @@
 <script lang="ts">
   import type { WorkTimes } from '$lib/models/workReport';
-  import WorkTime from './workTime.svelte';
+  import WorkTime from './time/time.svelte';
   import classNames from 'classnames';
 
-  export let workTimes: WorkTimes = {
-    'physical care': 0,
-    'live care': 0,
-    'attend hospital': 0,
-  };
+  export let workTimes: WorkTimes;
 
   const className = classNames('flex', 'flex-wrap', 'gap-2');
 </script>
