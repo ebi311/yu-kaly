@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { WorkReportsEveryDate } from '$lib/models/workReport';
   import DateDivider from './dateDivider/dateDivider.svelte';
-  import ReportList from './reportList.svelte';
+  import ReportList from './reportList/reportList.svelte';
 
   export const pageTitle = 'レポート一覧';
 
