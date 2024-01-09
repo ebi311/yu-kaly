@@ -5,8 +5,16 @@
     '/home-care/reports': 'レポート一覧',
   };
 
+  let pageTitle = 'untitled';
   $: console.log($page.data);
-  $: pageTitle = pageTitles[$page.url.pathname] ?? '(unknown page)';
+  $: {
+    const paths = Object.keys(pageTitles);
+    paths.forEach((path) => {
+      if ($page.url.pathname.startsWith(path)) {
+        pageTitle = pageTitles[path];
+      }
+    });
+  }
 </script>
 
 <header class="navbar bg-base-100 border-b-1 shadow">
