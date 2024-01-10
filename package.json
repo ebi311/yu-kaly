@@ -59,6 +59,7 @@
   "dependencies": {
     "classnames": "^2.5.1",
     "date-fns": "^3.0.6",
+    "nanoid": "^5.0.4",
     "svelte-awesome-icons": "^0.6.6"
   }
 }
